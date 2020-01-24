@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import ReviewFunction from './ReviewFunction';
+import HeaderStrap from './components/HeaderStrap';
+import HeaderReactStrap from './components/HeaderReactStrap';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HeaderStrap />
+      <h1>Ini Page 2</h1>
+      <HeaderReactStrap />
     </div>
   );
 }
